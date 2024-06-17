@@ -1,9 +1,12 @@
-import Image from "next/image";
+'use client'
+import { attends } from '@/data/attends';
 
 export default function Home() {
+  console.log(attends);
+
   return (
     <main>
-      hello
+
     </main>
   );
 }
